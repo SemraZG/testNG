@@ -39,8 +39,13 @@
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_scenario_outline1.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mytestNGproject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_DependsOnMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day16_SoftAssert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/pages/OpenSourcePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day17_FirstConfigTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day17_FirstDriverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/Day17_OpenSourceLogIn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -128,6 +133,8 @@
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyURLTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/FirstSeleniumClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/FirstSeleniumClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mytestNGproject_1/mytestNGproject_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" beforeDir="false" />
@@ -156,7 +163,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -166,32 +173,20 @@
     </option>
   </component>
   <component name="ProjectId" id="2K3C7H3xk0lzollhGwtiUX0wDd7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="TestNG.Day16_SoftAssert.softAssertTest">
-    <configuration name="Day16_Annotations" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_Annotations" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.Day17_OpenSourceLogIn">
     <configuration name="Day16_DependsOnMethods" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="testNGProject" />
       <extension name="coverage">
@@ -203,42 +198,6 @@
       <option name="PACKAGE_NAME" value="techproed.tests" />
       <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_DependsOnMethods" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day16_DependsOnMethods.checkOutPage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_DependsOnMethods" />
-      <option name="METHOD_NAME" value="checkOutPage" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Day16_DependsOnMethods.homePage" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="testNGProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="techproed.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="techproed.tests" />
-      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day16_DependsOnMethods" />
-      <option name="METHOD_NAME" value="homePage" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -263,13 +222,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Day17_FirstConfigTest.firstConfigTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day17_FirstConfigTest" />
+      <option name="METHOD_NAME" value="firstConfigTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day17_FirstDriverTest.firstDriverTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day17_FirstDriverTest" />
+      <option name="METHOD_NAME" value="firstDriverTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Day17_OpenSourceLogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="testNGProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="techproed.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="techproed.tests" />
+      <option name="MAIN_CLASS_NAME" value="techproed.tests.Day17_OpenSourceLogIn" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Day17_OpenSourceLogIn" />
+        <item itemvalue="TestNG.Day17_FirstDriverTest.firstDriverTest" />
+        <item itemvalue="TestNG.Day17_FirstConfigTest.firstConfigTest" />
         <item itemvalue="TestNG.Day16_SoftAssert.softAssertTest" />
         <item itemvalue="TestNG.Day16_DependsOnMethods" />
-        <item itemvalue="TestNG.Day16_DependsOnMethods.homePage" />
-        <item itemvalue="TestNG.Day16_DependsOnMethods.checkOutPage" />
-        <item itemvalue="TestNG.Day16_Annotations" />
       </list>
     </recent_temporary>
   </component>
@@ -297,31 +309,31 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="2508" height="342" key="GridCell.Tab.0.bottom" timestamp="1673200977584">
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom" timestamp="1673317855070">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="342" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673200977584" />
-    <state width="2433" height="393" key="GridCell.Tab.0.bottom/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673194346498" />
-    <state width="2508" height="342" key="GridCell.Tab.0.center" timestamp="1673200977583">
+    <state width="2508" height="3" key="GridCell.Tab.0.bottom/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673317855070" />
+    <state width="2217" height="597" key="GridCell.Tab.0.bottom/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673315344620" />
+    <state width="2508" height="3" key="GridCell.Tab.0.center" timestamp="1673317855069">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="342" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673200977583" />
-    <state width="2433" height="393" key="GridCell.Tab.0.center/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673194346498" />
-    <state width="2508" height="342" key="GridCell.Tab.0.left" timestamp="1673200977583">
+    <state width="2508" height="3" key="GridCell.Tab.0.center/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673317855069" />
+    <state width="2217" height="597" key="GridCell.Tab.0.center/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673315344619" />
+    <state width="2508" height="3" key="GridCell.Tab.0.left" timestamp="1673317855068">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="342" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673200977583" />
-    <state width="2433" height="393" key="GridCell.Tab.0.left/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673194346498" />
-    <state width="2508" height="342" key="GridCell.Tab.0.right" timestamp="1673200977583">
+    <state width="2508" height="3" key="GridCell.Tab.0.left/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673317855068" />
+    <state width="2217" height="597" key="GridCell.Tab.0.left/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673315344618" />
+    <state width="2508" height="3" key="GridCell.Tab.0.right" timestamp="1673317855069">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state width="2508" height="342" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673200977583" />
-    <state width="2433" height="393" key="GridCell.Tab.0.right/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673194346498" />
-    <state x="646" y="281" key="SettingsEditor" timestamp="1673194590239">
+    <state width="2508" height="3" key="GridCell.Tab.0.right/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673317855069" />
+    <state width="2217" height="597" key="GridCell.Tab.0.right/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673315344619" />
+    <state x="646" y="281" key="SettingsEditor" timestamp="1673318045379">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
-    <state x="646" y="281" key="SettingsEditor/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673194590239" />
-    <state x="702" y="281" key="SettingsEditor/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673194127827" />
+    <state x="646" y="281" key="SettingsEditor/0.25.2560.1415/2560.25.1920.1055@0.25.2560.1415" timestamp="1673318045379" />
+    <state x="702" y="281" key="SettingsEditor/75.25.2485.1415/2560.25.1920.1055@75.25.2485.1415" timestamp="1673309845325" />
     <state x="848" y="342" width="864" height="1032" key="search.everywhere.popup" timestamp="1673194575062">
       <screen x="0" y="25" width="2560" height="1415" />
     </state>
