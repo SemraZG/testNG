@@ -23,8 +23,8 @@ public class Day19_ReservationTest {
 //        Given user is on the home page
         Driver.getDriver().get(ConfigReader.getProperty("app_home_url"));
 
-
 //        LOGIN THE APP
+        homePage=new HomePage();
         loginPage= new LoginPage();
         ReusableMethods.waitFor(3);
         homePage.homePageLoginLink.click();
@@ -44,7 +44,7 @@ public class Day19_ReservationTest {
 
 //        NOW THAT U LOGGED IN THE APPLICATION, WE CAN ENTER THE REQUIRED FIELDS
 //        And select a car
-        homePage=new HomePage();
+
         Select carSelect = new Select(homePage.selectACar);
         carSelect.selectByIndex(3);
 //        And enter pick up field
@@ -62,17 +62,19 @@ public class Day19_ReservationTest {
         Calendar calendar=Calendar.getInstance();
 
 //        enter pick up date
-        homePage.pickUpDate.sendKeys("10/10/2023");
+        homePage.pickUpDate.sendKeys("10/10/2045");
 //        enter pick up hour
         homePage.pickUpTime.sendKeys(simpleDateFormat1.format(calendar.getTime()));
 //       enter drop of date
-        homePage.dropOffDate.sendKeys("12/11/2023");
+        homePage.dropOffDate.sendKeys("12/11/2045");
 //        enter drop of hour
         homePage.dropOffTime.sendKeys(simpleDateFormat1.format(calendar.getTime()));
 
 //        =====================================================
 //        And click continue reservation
         homePage.continueReservationButton.click();
+
+//        CAR IS NOT RESERVED There is a BLOCKER......
 
 //        And verify complete reservation screen pops up
 //        And enter card number
