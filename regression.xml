@@ -1,5 +1,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Blue Rental Car Project" verbose="1" >
+
+    <listeners>
+        <!--        Attaching the Listeners-->
+        <listener class-name="techproed.utilities.Listeners"></listener>
+    </listeners>
+
     <test name="Regression Test">
         <packages>
 <!--            run all packages that has @Test annotation-->
