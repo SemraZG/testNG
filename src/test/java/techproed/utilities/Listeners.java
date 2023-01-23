@@ -9,6 +9,7 @@ import java.io.IOException;
 public class Listeners implements ITestListener {
 
     /*
+    This class is used to implement the Listeners
     ITestListener is an interface
     We use this interface to customize testNG framework
     onStart,onFinish,onTestStart,onTestFinish,onTestSuccess,onTestFailure are special method names are used to LISTEN the test methods

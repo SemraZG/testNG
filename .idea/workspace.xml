@@ -37,6 +37,7 @@
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/ConfigReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/Driver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/java/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/day24_parameterizing_feature_files.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../my-cucumber-project/src/test/resources/features/first_feature_file.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/pages/GooglePage.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/java/stepdefinitions/GoogleStepDefs.java" afterDir="false" />
@@ -48,9 +49,6 @@
       <change afterPath="$PROJECT_DIR$/../mycucumberproject/src/test/resources/features/day20_scenario_outline1.feature" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mytestNGproject.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/listeners2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/tests/listeners/ListenersTest5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetryAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../abc/abc.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.companyname/com.companyname.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../com.techproed-pom/.gitignore" afterDir="false" />
@@ -138,7 +136,9 @@
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/Day02_VerifyURLTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/FirstSeleniumClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/../myseleniumproject/target/test-classes/com/myfirstproject/FirstSeleniumClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../mytestNGproject_1/mytestNGproject_1.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/Listeners.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/techproed/utilities/ListenersRetryAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../testNGframework/.idea/compiler.xml" beforeDir="false" />
