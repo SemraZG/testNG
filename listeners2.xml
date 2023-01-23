@@ -1,0 +1,28 @@
+<!--<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >-->
+<!--<suite name="Blue Rental Car" verbose="1">-->
+<!--    &lt;!&ndash;        listener tag is used to add Listeners&ndash;&gt;-->
+<!--    <listeners>-->
+<!--        &lt;!&ndash;        Path of the Listener Utility class&ndash;&gt;-->
+<!--        <listener class-name="techproed.utilities.ListenersRetryAnalyzer"></listener>-->
+<!--    </listeners>-->
+
+<!--&lt;!&ndash;    <test name="Login Test Classes" >&ndash;&gt;-->
+<!--&lt;!&ndash;        <classes>&ndash;&gt;-->
+<!--&lt;!&ndash;            &lt;!&ndash;            RUNNING ListenersTest2 class&ndash;&gt;&ndash;&gt;-->
+<!--&lt;!&ndash;            <class name="techproed.tests.listeners.ListenersTest5" />&ndash;&gt;-->
+<!--&lt;!&ndash;        </classes>&ndash;&gt;-->
+<!--&lt;!&ndash;    </test>&ndash;&gt;-->
+<!--    <packages>-->
+<!--        <package name="techproed.tests.listeners"></package>-->
+<!--    </packages>-->
+<!--</suite>-->
+
+<!--applying the listeners, and retry analyzer to the whole package-->
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Blue Rental Car Project" verbose="1" >
+<test name="Smoke Test">
+    <packages>
+        <package name="techproed.tests.listeners"/>
+    </packages>
+</test>
+</suite>
