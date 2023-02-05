@@ -11,7 +11,7 @@ public class Day18_PositiveLoginTest {
 
     HomePage homePage;
     LoginPage loginPage;
-    @Test
+    @Test(retryAnalyzer = techproed.utilities.ListenersRetry.class)
     public void US100201_Admin_Login(){
 //going blue rental car home page
         Driver.getDriver().get(ConfigReader.getProperty("app_home_url"));
