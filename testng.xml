@@ -23,3 +23,15 @@
         </classes>
     </test>
 </suite>
+
+<!--
+    xml dosyası oluşturmak için, proje isminin üzerine gel, sağ tıkla, xml dosyasının adını yaz ve .xml ekle,
+    verbose demek konsolda gösterilen bilgi demek, verbose=1 az bilgi ver, verbose=2 daha çok bilgi ver demek,
+    Genelde verbose=1 kullanılır.
+    Her değişiklikten sonra xml dosyasını mutlaka save yap.
+    Save den sonra xml dosyasını run yap.
+    xml dosyası bize esneklik sağlar çünkü istediğimiz test methodlarını include veya istemediklerimizi exclude yapabiliriz.
+    Include ve exclude seçenekleri sadece methodlar için geçerli, diğerlerinde zaten gerekli de değil.
+    Grup oluşturacaksak gruba dahil edeceğimiz testlerin yanına (groups= group adı)  yazmalıyız.
+    Gruba dahil edilecek testler farklı package lerden de olabilir.
+    -->
