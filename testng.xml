@@ -34,4 +34,4 @@
     Include ve exclude seçenekleri sadece methodlar için geçerli, diğerlerinde zaten gerekli de değil.
     Grup oluşturacaksak gruba dahil edeceğimiz testlerin yanına (groups= group adı)  yazmalıyız.
     Gruba dahil edilecek testler farklı package lerden de olabilir.
-    -->
+-->

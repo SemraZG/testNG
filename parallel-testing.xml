@@ -8,3 +8,8 @@
         </classes>
     </test>
 </suite>
+
+<!-- paralel test yapmak için önce bir xml dosyası oluşturulur.
+     paralel test için tek yapılması gereken xml dosyasına suite nameden sonra *parallel ve *thread-count keywordlerini eklemek.
+     thread-count aynı anda çalışacak tarayıcı sayısı.
+     -->

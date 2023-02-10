@@ -22,5 +22,12 @@ public class Day22_ManagerLogin {
         driver.findElement(By.xpath("//button[@type='submit']")).click();
         driver.quit();
     }
+
+    /*
+    paralel test ile birden fazla test case aynı anda çalıştırılabilir.
+    parelel test zamandan tasarruf sağlar.
+    Normalde çok kullanılmaz sıralı test yapılır, ama çok fazla test case varsa ve zaman kısıtkı ise paralel test yapılır.
+    paralel test xml dosyası aracılığı ile yapılır.
+     */
 }
 
